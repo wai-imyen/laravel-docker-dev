@@ -50,7 +50,7 @@ services:
     volumes:
         - ../:/var/www
         - ./data/logs/nginx:/var/log/nginx
-        - ./docker/nginx/ssl:/etc/nginx/ssl
+        - ./docker/nginx/sites-available:/etc/nginx/sites-available
 
   redis:
     container_name: redis
