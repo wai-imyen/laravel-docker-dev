@@ -1,4 +1,4 @@
-# Larvel Docker 開發環境
+# Laravel Docker 開發環境
 
 這是一個使用 Docker 容器化的 Laravel 開發環境。包括 MySQL 資料庫、PHP 應用、Nginx Web 伺服器和 Redis 伺服器。
 
